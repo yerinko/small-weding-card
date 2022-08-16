@@ -715,16 +715,6 @@ const Home = () => {
         <PinAlt color="#fff" /> 네이버지도
       </NaverMapButton>
       <SectionHr />
-      <SectionHeader>전세 버스 안내 🚌</SectionHeader>
-      <GiveWrap>
-        <p>
-          <strong>예식 당일 오전 10시</strong>
-          <br />
-          {/* eslint-disable-next-line react/no-unescaped-entities */}
-          <p>서울 강동구 '천호역 5번 출구' 앞</p>
-        </p>
-      </GiveWrap>
-      <SectionHr />
       <p>
         🌻 화환 대신 마음만 감사히 받겠습니다. 💐
         <br />
