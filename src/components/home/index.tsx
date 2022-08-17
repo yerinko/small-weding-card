@@ -622,15 +622,6 @@ const Home = () => {
       </CoverPicWrap>
       <SectionHr />
       <Header>
-        <p>
-          2022년 9월 24일 토요일 오후 12시30분
-          <br />
-          🌳 에덴 파라다이스 호텔 에덴 가든 🍃
-        </p>
-      </Header>
-
-      <SectionHr />
-      <Header>
         <Image
           src={hoya}
           priority={true}
@@ -648,13 +639,19 @@ const Home = () => {
           width={100}
           height={100}
         />
-        <SectionHeader>9월의 좋은 날, 결혼합니다.</SectionHeader>
+        <SectionHeader>9월 24일, 결혼합니다.</SectionHeader>
       </Header>
       <GreetingP>
-        인생에서 가장 아름답고 행복한 순간,
-        <br />
-        우리의 작은 결혼식에 초대합니다.
+        가족분들만 모시고 작은 소풍 결혼식을 하게 되었습니다. <br />
+        항상 고마운 한분 한분 다 모시지 못해 정말 송구합니다.
+        <br /> 직접 모시고 인사드리지 못함에 아쉬운 마음 크지만 <br />
+        사진으로나마 소식 전하는 점 너그러운 양해 부탁드리며 <br />
+        축하해주시는 고마운 마음을 가슴에 새기며 <br />
+        언제나 같은 마음으로 행복하게 <br />
+        서로 배려하고 아끼는 부부가 되겠습니다!
       </GreetingP>
+      <br />
+      <SectionHr />
       <GreetingP>
         故이점욱 · 신명희의 아들 이창호
         <br />
@@ -698,30 +695,6 @@ const Home = () => {
           />
         </Modal>
       )}
-      <SectionHr />
-      <SectionHeader>
-        <Image src={mapTitle} width="80px" height="40px" alt="" />
-      </SectionHeader>
-      <Image src={mapPic} width="400px" height="300px" alt="" />
-      <p>
-        경기도 이천시 마장면 서이천로 449-79
-        <br />
-        에덴 파라다이스 호텔 에덴 가든
-      </p>
-      <KakaoMapButton href="https://place.map.kakao.com/1019006789">
-        <PinAlt color="#1199EE" /> 카카오맵
-      </KakaoMapButton>
-      <NaverMapButton href="https://map.naver.com/v5/entry/place/151818813">
-        <PinAlt color="#fff" /> 네이버지도
-      </NaverMapButton>
-      <SectionHr />
-      <p>
-        🌻 화환 대신 마음만 감사히 받겠습니다. 💐
-        <br />
-        결혼식장의 아름다운 꽃은
-        <br />
-        축하해주시는 여러분 모두 입니다.
-      </p>
       <SectionHr />
       <GiveWrap ref={showWriteTalkModal ? scrollElement : undefined}>
         <YouTube
